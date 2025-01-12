@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>TravelBloom</h1>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <input type="text" id="search" placeholder="Search...">
+        <button id="searchBtn">Search</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+    <div id="recommendations" class="recommendations">
+        <h2>Beach Recommendations</h2>
+        <div class="recommendation">
+            <h3>Bora Bora, French Polynesia</h3>
+            <p>An island known for its stunning turquoise waters and luxurious overwater bungalows.</p>
+            <img src="https://th.bing.com/th/id/R.8ce64444e6a3ce811ab5059cf5e2919f?rik=66tNDZgY3NdIYw&riu=http%3a%2f%2fbeautifulplacestovisit.com%2fwp-content%2fuploads%2f2010%2f04%2fBora_Bora_French_Polynesia41.jpg&ehk=LnBAzlyUKkxPXSU5yCZzmXezRIMIupu7XrX2NfFgMOI%3d&risl=&pid=ImgRaw&r=0" alt="Bora Bora" style="width:100%; max-width:400px;">
+        </div>
+        <div class="recommendation">
+            <h3>Copacabana Beach, Brazil</h3>
+            <p>A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views.</p>
+            <img src="https://wallpaperaccess.com/full/2737556.jpg" alt="Copacabana Beach" style="width:100%; max-width:400px;">
+        </div>
+
+        <h2>Temple Recommendations</h2>
+        <div class="recommendation">
+            <h3>Angkor Wat, Cambodia</h3>
+            <p>A UNESCO World Heritage site and the largest religious monument in the world.</p>
+            <img src="https://lp-cms-production.imgix.net/2019-06/52727192.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4" alt="Angkor Wat" style="width:100%; max-width:400px;">
+        </div>
+        <div class="recommendation">
+            <h3>Taj Mahal, India</h3>
+            <p>An iconic symbol of love and a masterpiece of Mughal architecture.</p>
+            <img src="https://fthmb.tqn.com/jK9JxwxbaLfqsvsNAz8kFssaZzU=/4080x2380/filters:fill(auto,1)/taj-mahal-facts-587d58cd3df78c17b6301f80.jpg" alt="Taj Mahal" style="width:100%; max-width:400px;">
+        </div>
+
+        <h2>Country Recommendations</h2>
+        <div class="recommendation">
+            <h3>Sydney, Australia</h3>
+            <p>A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.</p>
+            <img src="https://lp-cms-production.imgix.net/2019-06/65830387.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4" alt="Sydney" style="width:100%; max-width:400px;">
+        </div>
+        <div class="recommendation">
+            <h3>Tokyo, Japan</h3>
+            <p>A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture.</p>
+            <img src="https://s.yimg.com/ny/api/res/1.2/jvkzkQLZ51wXmHswNTiktg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2021-07/59a4bc60-f23c-11eb-bf75-c38993010fb7" alt="Tokyo" style="width:100%; max-width:400px;">
+        </div>
+    </div>
+
+    <div id="home" class="home">
+        <h2>Welcome to TravelBloom</h2>
+        <p>Your ultimate guide to discovering dream destinations worldwide.</p>
+    </div>
+
+    <div id="about" class="about">
+        <h2>About Us</h2>
+        <p>At TravelBloom, we aim to make travel planning seamless and enjoyable. Our team of experts is here to provide personalized recommendations to create unforgettable experiences.</p>
+        <div class="team">
+            <div class="team-member">
+                <h3>Jane Doe</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <h3>John Smith</h3>
+                <p>Travel Specialist</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <div id="results" class="results">
+        <!-- Recommendations from search will appear here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
